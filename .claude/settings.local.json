@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(karpathy-guidelines)",
+      "Skill(karpathy-guidelines:*)",
+      "Skill(source-code-learner)",
+      "Skill(source-code-learner:*)",
+      "Skill(codebase-to-course)",
+      "Skill(codebase-to-course:*)",
+      "Bash(cp \"C:/Users/Administrator/.claude/skills/codebase-to-course/references/styles.css\" \"d:/360安全浏览器下载/Clawith-main/Clawith-课程/styles.css\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/skills/codebase-to-course/references/main.js\" \"d:/360安全浏览器下载/Clawith-main/Clawith-课程/main.js\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/skills/codebase-to-course/references/_footer.html\" \"d:/360安全浏览器下载/Clawith-main/Clawith-课程/_footer.html\")",
+      "Bash(cp \"C:/Users/Administrator/.claude/skills/codebase-to-course/references/build.sh\" \"d:/360安全浏览器下载/Clawith-main/Clawith-课程/build.sh\")"
+    ]
+  }
+}
