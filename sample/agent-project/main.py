@@ -53,7 +53,7 @@ def main():
     agent = IdleAgent(llm=llm, max_iterations=MAX_ITERATIONS)
 
     print("Agent started. Type 'quit' to exit.")
-    for user_input in iter(input("\nYou: "), "quit"):
+    for user_input in iter(lambda: input("\nYou: "), "quit"):
         try:
             result = agent.run_sync(user_input)
             print(f"\nAgent: {result.get('final_answer', '(no answer)')}")
