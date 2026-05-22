@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # Threat patterns for memory content security scan
 _THREAT_PATTERNS = [
-    (re.compile(r"(ignore|disregard|forget)\s+(previous|all|prior\s+previous)?\s+(instructions|directives)", re.I),
+    (re.compile(r"(ignore|disregard|forget)\s+(?:all\s+)?(?:previous\s+)?(?:prior\s+)?(instructions|directives)", re.I),
      "prompt_injection"),
     (re.compile(r"(api[_-]?key|secret|password|token)\s*[:=]\s*\S+", re.I),
      "credential_exposure"),
